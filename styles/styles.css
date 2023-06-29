@@ -1,0 +1,58 @@
+.continer{
+    margin: 0 auto;
+    padding: 0;
+    text-align: center;
+    background-color: rosybrown;
+}
+p{
+    color: red;
+}
+p::first-line{
+    color: cadetblue;
+}
+h1{
+    font-weight: bold;/*设置字体加粗*/
+    font-style: italic; /*设置字体斜体*/
+    font-size: 20px;/*设置字体大小*/
+    font-family: 'Times New Roman', Times, serif;/*设置字体类型楷体*/
+    text-align: center;/*设置字体居中*/
+    line-height: 40px;/*设置行高*/
+    letter-spacing: 2px;/*设置字间距2个字符*/
+}
+a[href="https://cn.bing.com/"]{
+    text-decoration: underline;
+}
+a:hover{
+    color: brown;
+}
+p > em{
+    color: chartreuse;
+}
+img{
+    height: 700px;
+    border: 30px solid rgb(226, 26, 26);/*边框设置 宽度 线型 颜色*/
+    padding: 15px 10px 15px 10px;/*上右下左内边距*/
+    margin-left: 40px;/*外边框*/
+    background-color: green;/*元素内容和内边距底下的颜色*/
+}
+div span{
+    position:absolute;
+    left: 1150px;
+    color: honeydew;
+    font-size: 30px;
+    text-shadow: 5px 5px 5px rgb(219, 216, 41);/* 为元素内的文本设置阴影 
+    第一个像素值设置阴影与文本的水平偏移量：它横移的距离。
+    第二个像素值设置阴影与文本的垂直偏移量：它向下移动的距离。
+    第三个像素值设置阴影的模糊半径。一个更大的值会产生一个更模糊的阴影。
+    第四个值设置阴影的基色*/
+}
+ul li{
+    list-style-type: disc;/* 设置无序列表前面的符号为空心圆 */
+    list-style: none;/* 清除前面的符号 */
+}
+button{
+    background-color:white;
+}
+
+
+
